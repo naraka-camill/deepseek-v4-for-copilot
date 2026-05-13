@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.5.0](https://github.com/naraka-camill/deepseek-v4-for-copilot/compare/v0.4.1...v0.5.0) (2026-05-13)
+
+
+### Features
+
+* add configurable API model IDs for DeepSeek V4 Flash and Pro models ([#4](https://github.com/naraka-camill/deepseek-v4-for-copilot/issues/4)) ([de132ca](https://github.com/naraka-camill/deepseek-v4-for-copilot/commit/de132ca14f46a03584932e646c76ebe2add01aef))
+* Chinese (zh-cn) i18n support ([#16](https://github.com/naraka-camill/deepseek-v4-for-copilot/issues/16)) ([72a8a69](https://github.com/naraka-camill/deepseek-v4-for-copilot/commit/72a8a696419d85aa5f82d1142abbc42ec4b50e9b))
+* **diagnostics:** add opt-in cache trace diagnostics ([#35](https://github.com/naraka-camill/deepseek-v4-for-copilot/issues/35)) ([fa11e5b](https://github.com/naraka-camill/deepseek-v4-for-copilot/commit/fa11e5bea0ccf4023b9947bba5ab4c333abb3ccb))
+* initial release v0.1.0 ([a30057e](https://github.com/naraka-camill/deepseek-v4-for-copilot/commit/a30057e7a82493e681d92b72a16ef97cf1db60d6))
+* report token usage to Copilot context via LanguageModelDataPart ([#60](https://github.com/naraka-camill/deepseek-v4-for-copilot/issues/60)) ([01ef9e5](https://github.com/naraka-camill/deepseek-v4-for-copilot/commit/01ef9e5f4134fbb5981a5f2c3dbd75ff6bd8162e))
+
+
+### Bug Fixes
+
+* add in-memory LRU cache for vision image descriptions ([#36](https://github.com/naraka-camill/deepseek-v4-for-copilot/issues/36)) ([05fac93](https://github.com/naraka-camill/deepseek-v4-for-copilot/commit/05fac9392270e5d58a51769b76f4c5378457b1bc))
+* **auth:** allow compatible provider API tokens ([#34](https://github.com/naraka-camill/deepseek-v4-for-copilot/issues/34)) ([e06c550](https://github.com/naraka-camill/deepseek-v4-for-copilot/commit/e06c550e2183ec1c143dcaee28c4b4b32f89a3a1))
+* **json:** sanitize lone surrogates before serialization ([#40](https://github.com/naraka-camill/deepseek-v4-for-copilot/issues/40)) ([40a21a4](https://github.com/naraka-camill/deepseek-v4-for-copilot/commit/40a21a4719edc8c2fe0d2e9d25953244917af8b3))
+* **manifest:** resolve marketplace display metadata ([#41](https://github.com/naraka-camill/deepseek-v4-for-copilot/issues/41)) ([20b86b7](https://github.com/naraka-camill/deepseek-v4-for-copilot/commit/20b86b791cbd068477cc46a556e2e061cee581e3))
+* **provider:** recursively count all part types in provideTokenCount ([#51](https://github.com/naraka-camill/deepseek-v4-for-copilot/issues/51)) ([1bd8636](https://github.com/naraka-camill/deepseek-v4-for-copilot/commit/1bd8636d04e98036b76e74d44abd8ac39ee7af1c))
+* **provider:** stabilize reasoning replay across tool turns ([#39](https://github.com/naraka-camill/deepseek-v4-for-copilot/issues/39)) ([e283bc0](https://github.com/naraka-camill/deepseek-v4-for-copilot/commit/e283bc014bf8c2e2b4e0ebfd0869be6819a35d46))
+* remove extensionDependencies on github.copilot-chat for SSH-Remote compatibility ([#45](https://github.com/naraka-camill/deepseek-v4-for-copilot/issues/45)) ([11d020e](https://github.com/naraka-camill/deepseek-v4-for-copilot/commit/11d020e196fac5f80b48ae1e2f2314680191f2aa))
+* rename displayName to avoid Marketplace name collision ([a9f11f8](https://github.com/naraka-camill/deepseek-v4-for-copilot/commit/a9f11f85c0ca2efeee1fc77832a49abcb2b79f61))
+* thinking effort dropdown missing on first launch ([#13](https://github.com/naraka-camill/deepseek-v4-for-copilot/issues/13)) ([27deac1](https://github.com/naraka-camill/deepseek-v4-for-copilot/commit/27deac14cb69a3e51eaf908919ded9db8fcb1ab6))
+
+
+### Documentation
+
+* **readme:** document model ID overrides ([#22](https://github.com/naraka-camill/deepseek-v4-for-copilot/issues/22)) ([7d38322](https://github.com/naraka-camill/deepseek-v4-for-copilot/commit/7d38322818d15380eba7c28058de45140a7aa73a))
+
 ## [0.4.1](https://github.com/Vizards/deepseek-v4-for-copilot/compare/v0.4.0...v0.4.1) (2026-05-05)
 
 
